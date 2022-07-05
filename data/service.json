@@ -1,0 +1,47 @@
+{
+    "getpatientlist": {
+        "params": "Qdepartment_list",
+        "path": "index.php",
+        "pathParams": {
+            "r": "apk",
+            "ac": "patient/apkgetpatientlist"
+        },
+        "type": "GET"
+    },
+    "getuserrolelist": {
+        "params": "",
+        "path": "index.php",
+        "pathParams": {
+            "r": "apk",
+            "ac": "user/apkgetuserrolelist"
+        },
+        "type": "GET"
+    },
+    "submitnrs2002": {
+        "params": "Fuser_id,Fdata",
+        "path": "index.php",
+        "pathParams": {
+            "r": "apk",
+            "ac": "patient/apksubmitnrs2002"
+        },
+        "type": "POST"
+    },
+    "submitnrs2002all": {
+        "params": "Fuser_id,Fdata",
+        "path": "index.php",
+        "pathParams": {
+            "r": "apk",
+            "ac": "patient/apksubmitnrs2002"
+        },
+        "type": "POST"
+    },
+    "getdepartmentlist": {
+        "params": "",
+        "path": "index.php",
+        "pathParams": {
+            "r": "apk",
+            "ac": "user/apkgetdepartmentlist"
+        },
+        "type": "GET"
+    }
+}

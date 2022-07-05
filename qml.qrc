@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file alias="main.qml">qml/main.qml</file>
+        <file alias="TopBar.qml">qml/TopBar.qml</file>
+        <file alias="Login.qml">qml/Login.qml</file>
+        <file alias="MainStack.qml">qml/MainStack.qml</file>
+        <file alias="Waiting.qml">qml/Waiting.qml</file>
+        <file alias="Department/Department.qml">qml/Department/Department.qml</file>
+        <file alias="Department/PatientList.qml">qml/Department/PatientList.qml</file>
+        <file alias="Department/NRS2002.qml">qml/Department/NRS2002.qml</file>
+        <file alias="History/History.qml">qml/History/History.qml</file>
+        <file alias="History/HistorySearchForm.qml">qml/History/HistorySearchForm.qml</file>
+        <file alias="History/HistoryList.qml">qml/History/HistoryList.qml</file>
+        <file alias="Setting/Setting.qml">qml/Setting/Setting.qml</file>
+        <file alias="Setting/SettingBasic.qml">qml/Setting/SettingBasic.qml</file>
+        <file alias="Setting/SettingAccounts.qml">qml/Setting/SettingAccounts.qml</file>
+        <file alias="Common/JRadioButton.qml">qml/Common/JRadioButton.qml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="login-back.png">images/login-back.png</file>
+        <file alias="login-foot.png">images/login-foot.png</file>
+        <file alias="login-key.png">images/login-key.png</file>
+        <file alias="login-user.png">images/login-user.png</file>
+        <file alias="loading.gif">images/loading.gif</file>
+        <file alias="back.png">images/back.png</file>
+    </qresource>
+    <qresource prefix="/data">
+        <file alias="service.json">data/service.json</file>
+    </qresource>
+</RCC>
